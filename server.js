@@ -208,11 +208,6 @@ app.delete('/api/employees/:id', (req, res) => {
   });
 });
 
-// Serve React app for any other routes
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
-});
-
 // Start server
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
