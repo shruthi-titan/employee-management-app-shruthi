@@ -171,6 +171,8 @@ employee-management-app-shruthi/
 ├── employees.db           # SQLite database (created on first run)
 ├── .gitignore            # Git ignore file
 ├── README.md             # This file
+├── docs/                 # Documentation
+│   └── CHAT_FEATURE_TECHNICAL_DESIGN.md  # Real-time chat feature design
 └── client/               # React frontend
     ├── public/           # Static files
     ├── src/
@@ -179,6 +181,12 @@ employee-management-app-shruthi/
     │   └── index.js      # React entry point
     └── package.json      # Frontend dependencies
 ```
+
+## Documentation
+
+For detailed technical documentation, see:
+
+- [Real-Time Chat Feature Technical Design](docs/CHAT_FEATURE_TECHNICAL_DESIGN.md) - Comprehensive design document for the planned real-time chat feature with WebSocket-based communication, PostgreSQL persistence, scalability for 10,000 concurrent users, and end-to-end encryption.
 
 ## Contributing
 
